@@ -45,7 +45,7 @@
                 flight.</p>
 
             <div class="form-wrapper">
-                <form onsubmit="airlineCovid(event);">
+                <form id="redirectAirline">
                     <p class="bold">Airline</p>
                     <fieldset><label for="airlinesList">
                             <select id="airlinesList" name="selectAirline">
@@ -80,7 +80,7 @@
                                     Air Canada</option>
                             </select>
                         </label>
-                        <button id='goCovid' type="submit">Go to airline website</button></fieldset>
+                        <button id="btnAirlineRedirect" type="button" onclick="airlineCovid();">Go to airline website</button></fieldset>
                 </form>
             </div>
             <p class="bold">To cancel your flight</p>

@@ -6,7 +6,7 @@ function airlineCovid() {
     if (airlinesList.selectedIndex > 0) {
         window.open(airlinesList.value); 
     } else {
-        alert("Please select appropriate airline from dropdown menu");
+        alert("Please select appropriate airline from dropdown menu.");
     }
     return false;
 }
