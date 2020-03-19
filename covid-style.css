@@ -9,10 +9,13 @@ body {
     font-weight: 400;
 }
 header {
-    background-color: #1B3563;
+    background-image: url(bg-map.png);
+    background-color: #21448c;
     color: #fff;
     padding: 20px 0;
     margin-bottom: 30px;
+    background-size: contain;
+    background-position: left top;
 }
 .container {   
     max-width: 75%;
