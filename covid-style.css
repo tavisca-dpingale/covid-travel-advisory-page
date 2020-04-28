@@ -92,6 +92,12 @@ ul {
 li {
     margin-bottom: 10px;
 }
+ul ul {
+    margin-top: 10px;
+}
+ul ul li {
+    margin-bottom: 5px;
+}
 ul.unstyled-list li {
     list-style: none;
     margin-bottom: 5px;
