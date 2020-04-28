@@ -111,6 +111,9 @@ footer {
 .color-purple {
     color: #9b00d2;
 }
+.color-black {
+    color: #000 !important;
+}
 @media only screen and (max-width: 767px){
 
     h1 {
