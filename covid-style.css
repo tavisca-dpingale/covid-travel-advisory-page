@@ -82,6 +82,10 @@ button {
     padding: 20px;
     margin-bottom: 30px;
 }
+.travel-advisory-message-no-margin {
+    background-color: #fff7ee;
+    padding: 20px;
+}
 a {
     color: #2D5DC5;
     text-decoration: none;
